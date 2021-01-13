@@ -1,0 +1,172 @@
+.body {
+  display: block;
+  overflow: visible;
+  background-image: -webkit-repeating-linear-gradient(56deg, hsla(0, 0%, 100%, .2), rgba(0, 0, 0, .2)), url('https://timeboxlab.com/images/tbl-bg.png');
+  background-image: repeating-linear-gradient(34deg, hsla(0, 0%, 100%, .2), rgba(0, 0, 0, .2)), url('https://timeboxlab.com/images/tbl-bg.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+}
+
+.card {
+  display: block;
+  width: 350px;
+  height: 422px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, .2);
+}
+
+.logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+}
+
+.contact {
+  display: block;
+  width: 194px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.link {
+  display: block;
+  margin-top: 55px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 77px;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #afafaf;
+}
+
+.phone {
+  display: block;
+  margin-top: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 77px;
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.phone:hover {
+  color: #afafaf;
+}
+
+.text {
+  display: block;
+  width: 350px;
+  min-width: 0px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 77px;
+  font-family: Montserrat, sans-serif;
+  color: #afafaf;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.eas {
+  display: block;
+  width: 185px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.eas.eas2 {
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.text2 {
+  margin-left: auto;
+  padding-right: 30px;
+  padding-bottom: 34px;
+  padding-left: 77px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.return {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-block {
+  margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  color: #636363;
+  font-size: 10px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 479px) {
+  .card {
+    width: 90%;
+    height: 75%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo {
+    width: 60%;
+    padding-top: 25px;
+  }
+  .link {
+    width: 88%;
+    margin-top: 25px;
+    padding-left: 42px;
+  }
+  .phone {
+    width: 88%;
+    padding-left: 42px;
+  }
+  .text {
+    width: 88%;
+    margin-top: 15px;
+    padding-left: 42px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .eas {
+    margin-top: 20px;
+  }
+  .text2 {
+    padding-left: 57px;
+  }
+}
